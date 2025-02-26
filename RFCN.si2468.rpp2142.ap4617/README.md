@@ -46,14 +46,33 @@ Bounding boxes from the predictions are drawn on sample images, with class label
 - Optimize the model for faster inference.
 - Fine-tune hyperparameters for improved accuracy.
 
+## Resources 
+
+Due to model training complexity, compute limitations, and time contraints, we were unable to provide a full implementation of the R-FCN. Additionally, there are no pre-built models or dedicated libraries for R-FCN in Detectron2 or PyTorch. However, the following repositories provide well-structured implementations and serve as valuable references for those looking to explore or extend R-FCN architectures. Some implementations use the [R-FCN.pytorch](https://github.com/princewang1994/R-FCN.pytorch) as a baseline and serve as an extension of this repository. 
+
+- [R-FCN.pytorch](https://github.com/princewang1994/R-FCN.pytorch)
+- [Keras-RFCN](https://github.com/parap1uie-s/Keras-RFCN)
+- [py-R-FCN](https://github.com/YuwenXiong/py-R-FCN)
+- [pytorch-detect-rfcn](https://github.com/Feynman27/pytorch-detect-rfcn)
+- [R-FCN.pytorch](https://github.com/princewang1994/R-FCN.pytorch)
+- [Faster R-CNN Implementation in Pytorch](https://github.com/explainingai-code/FasterRCNN-PyTorch)
+
+The following media articles also helped break down R-FCN architectures in a simplified and comprehensive manner: 
+
+- [Understanding Region-based Fully Convolutional Networks (R-FCN) for object detection](https://jonathan-hui.medium.com/understanding-region-based-fully-convolutional-networks-r-fcn-for-object-detection-828316f07c99)
+- [R-FCN (Region-based Fully Convolutional Networks) Overview](https://medium.com/@zakhtar2020/r-fcn-region-based-fully-convolutional-networks-overview-677c3bd5db10)
+- [Detection and Segmentation](https://www.youtube.com/watch?v=nDPWywWRIRo)
+- [Faster R-CNN Explanation](https://www.youtube.com/watch?v=Qq1yfWDdj5Y&list=PL8VDJoEXIjppNvOzocFbRciZBrtSMi81v&index=6)
+
+
 ## Acknowledgments
 - The implementation is based on PyTorch’s `torchvision.models.detection.fasterrcnn_resnet50_fpn`.
 - The PASCAL VOC dataset is publicly available for object detection tasks.
 
 ### Other Reading
-1. original RFCN paper: https://arxiv.org/pdf/1605.06409
-2. OverFeat paper: https://arxiv.org/pdf/1312.6229
-3. Segmentation: https://arxiv.org/pdf/1506.06204
-4. Instance-Sensitive Segmentation: https://arxiv.org/pdf/1603.08678
+1. [Original RFCN paper](https://arxiv.org/pdf/1605.06409)
+2. [OverFeat paper](https://arxiv.org/pdf/1312.6229)
+3. [Segmentation](https://arxiv.org/pdf/1506.06204)
+4. [Instance-Sensitive Segmentation](https://arxiv.org/pdf/1603.08678)
 
 
